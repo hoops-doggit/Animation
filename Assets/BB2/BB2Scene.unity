@@ -547,9 +547,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5652d77c07bd787499c93ac0bb775fc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standInPlace: 0
+  standInPlace: 1
   mouseYSensitivity: 4
-  speed: 6
+  movementSpeed: 1
   controller: {fileID: 264998127}
 --- !u!4 &971151936
 Transform:

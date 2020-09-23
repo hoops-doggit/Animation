@@ -55,11 +55,9 @@ namespace DitzelGames.FastIK
                 Quaternion startRotation2 = bones[i].rotation;
                 startDirection[i] = target.position - bones[i].transform.position;
                 Quaternion FromTo = Quaternion.FromToRotation(bones[i].forward, (target.position - bones[i].transform.position) / bones.Count) * startRotation2;
-                Quaternion qLerped = Quaternion.Lerp(startRotation2, FromTo, 1f / bonesInChain);
+                Quaternion qLerped = Quaternion.Lerp(startRotation2, FromTo, (1f / bonesInChain) * weight);
                 bones[i].transform.rotation = qLerped;
             }
-
-            //bones[0].LookAt(target);
 
         }
     }

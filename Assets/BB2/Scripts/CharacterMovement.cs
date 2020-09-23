@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public bool standInPlace;
-    private float yaw = 0;
-    public float mouseYSensitivity = 1;
-
-    Vector3 movement;
-    [SerializeField] private float speed = 1;
+    [SerializeField] private bool standInPlace;    
+    [SerializeField] private float mouseYSensitivity = 1;
+    
+    [SerializeField] private float movementSpeed = 1;
     [SerializeField] private Animator controller = null;
+
+    private float yaw = 0;
+    Vector3 movement;
 
     void Update()
     {
@@ -19,13 +20,12 @@ public class CharacterMovement : MonoBehaviour
 
         controller.SetFloat("BlendX", movement.x);
         controller.SetFloat("BlendY", movement.z);
-
         
 
         if (!standInPlace)
         {
-            movement *= speed;
-            transform.Translate(movement * speed * Time.deltaTime);
+            movement *= movementSpeed;
+            transform.Translate(movement * movementSpeed * Time.deltaTime);
         }
 
 

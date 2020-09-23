@@ -8,8 +8,7 @@ public class CameraPitch : MonoBehaviour
     public float mouseYSensitivity = 4;
     private float pitch = 0;
     public bool invertY;
-    private float yaw = 0;
-    
+    private float yaw = 0;    
 
     void LateUpdate()
     {
