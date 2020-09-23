@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public bool standInPlace;
 
     Vector3 movement;
     [SerializeField] private float speed = 1;
@@ -17,9 +18,13 @@ public class CharacterMovement : MonoBehaviour
         controller.SetFloat("BlendX", movement.x);
         controller.SetFloat("BlendY", movement.z);
 
-        movement *= speed;
+        
 
-
-        transform.Translate(movement);
+        if (!standInPlace)
+        {
+            movement *= speed;
+            transform.Translate(movement);
+        }
+        
     }
 }
