@@ -2,5 +2,7 @@ Note to self about mixamo:
 
 Mixamo packs have forward motion on by default. EG I had to re-download all of the clips with "In Place" ticked.
 
+The scale of your fbx animation clips needs to be set to the exact same settings as the scale as your model fbx
+
 Also Mixamo doesn't add a root joint when it auto-rigs something (the root joint is a joint which typically sits at 0,0,0 and all other bones are parented to it). Unity prefers root joints when setting up Avatars.
 
