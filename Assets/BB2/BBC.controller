@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blend Tree
+  m_Name: Locomotion
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -37,7 +37,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8630284241603128059}
-    m_Position: {x: 50, y: 40, z: 0}
+    m_Position: {x: 80, y: 50, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -88,7 +88,7 @@ BlendTree:
       type: 3}
     m_Threshold: 0.6
     m_Position: {x: 0, y: -1}
-    m_TimeScale: 3
+    m_TimeScale: 6
     m_CycleOffset: 0
     m_DirectBlendParameter: BlendX
     m_Mirror: 0
@@ -174,7 +174,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6202514093400927512}
-    m_Position: {x: 310, y: 270, z: 0}
+    m_Position: {x: 50, y: 190, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
