@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 1fc13bd832db6cc4e8e81f73babff3c2
+guid: 0e418aba9e31d1344b9870d42c1a59b2
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: rifleRunForwardLeft
+    second: PutRifleBack
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -35,18 +35,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: rifleRunForwardLeft
+      name: PutRifleBack
       takeName: mixamo.com
-      internalID: -203655887218126122
+      internalID: 0
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 106
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -58,7 +58,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.024447998
+        functionName: GunState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: c47711db67f4e284ebaea9886a12e7b3,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.2554585
+        functionName: UnparentGun
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: c47711db67f4e284ebaea9886a12e7b3,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -90,7 +106,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

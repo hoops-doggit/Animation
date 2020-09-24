@@ -6,7 +6,7 @@ namespace DitzelGames.FastIK
     public class FastIKLookMine : MonoBehaviour
     {
         [Range(0, 1)]
-        public float weight;
+        public float weight = 1;
         public int bonesInChain = 2;
         public List<Transform> bones = new List<Transform>();
 

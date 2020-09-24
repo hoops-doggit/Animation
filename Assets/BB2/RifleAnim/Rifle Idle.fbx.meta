@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 0e418aba9e31d1344b9870d42c1a59b2
+guid: 00d0e3cbfd0a3c346b8ce1f014cef0d6
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: mixamo.com
+    second: rifleIdle
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -35,18 +35,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: rifleIdle
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 106
+      lastFrame: 257
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -59,13 +59,13 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.2554585
-        functionName: UnparentGun
+      - time: 0.037558686
+        functionName: RotateGun
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: c47711db67f4e284ebaea9886a12e7b3,
           type: 3}
         floatParameter: 0
-        intParameter: 0
+        intParameter: 2
         messageOptions: 0
       transformMask: []
       maskType: 3
@@ -109,7 +109,7 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -126,7 +126,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 64fb2b127e9dc4a458c77cb77ce0fa57,
+    type: 3}
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0

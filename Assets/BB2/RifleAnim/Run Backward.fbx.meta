@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 1fc13bd832db6cc4e8e81f73babff3c2
+guid: 406a089b692ba1d4386792b1a4d51861
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: rifleRunForwardLeft
+    second: rifleRunBack
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -35,9 +35,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: rifleRunForwardLeft
+      name: rifleRunBack
       takeName: mixamo.com
-      internalID: -203655887218126122
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -90,7 +90,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
