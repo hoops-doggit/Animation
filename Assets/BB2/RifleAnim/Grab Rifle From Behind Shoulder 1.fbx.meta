@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85685d993ae59f44a92011ed6213c838
+guid: 0e418aba9e31d1344b9870d42c1a59b2
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -60,7 +60,7 @@ ModelImporter:
       curves: []
       events:
       - time: 0.2554585
-        functionName: ParentGun
+        functionName: UnparentGun
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: c47711db67f4e284ebaea9886a12e7b3,
           type: 3}
